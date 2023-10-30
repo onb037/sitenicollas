@@ -1,0 +1,51 @@
+.sobremim-section {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tituloprincipal {
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.textoprincipal {
+    flex-grow: 1;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 5%;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 5%;
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .tituloprincipal {
+        font-size: 24px;
+        padding-top: 25%;
+
+    }
+
+    .textoprincipal {
+        font-size: 17px;
+    }
+
+    .image1,
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

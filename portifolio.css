@@ -1,0 +1,52 @@
+.portfolio-section {
+    top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+
+.projeto {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(42, 23, 247, 0.705);
+    text-align: left;
+}
+
+.projeto h3 {
+    font-size: 24px;
+    color: #e7e6e6;
+}
+
+.projeto p {
+    font-size: 16px;
+    color: #ffeaea;
+}
+
+.projeto-carousel {
+   color: white;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .projeto {
+        margin: 10px; 
+        padding: 10px; 
+    }
+
+    .projeto h3 {
+        font-size: 20px; 
+    }
+
+    .projeto p {
+        font-size: 14px;
+    }
+    img{
+        max-width: 50%;
+        height: auto;
+    }
+    
+}
